@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EccoleApp"
+             NavigationPage.HasNavigationBar="false"
+             x:Class="EccoleApp.MainPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="#fdfdfd" />
+            <Setter Property="BorderColor" Value="#e5e5e5" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="CornerRadius" Value="15" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0, 5" />
+        </Style>
+
+        <Style x:Key="headerLabel" TargetType="Label">
+            <Setter Property="Margin" Value="0, 8" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="TextColor" Value="Blue" />
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="FlexLayout.Order" Value="-1" />
+            <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+        </Style>
+
+        <!--<Style TargetType="Button">
+            <Setter Property="Text" Value="Ingresar" />
+            <Setter Property="FontSize" Value="Small" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="BackgroundColor" Value="#4c90ee" />
+            <Setter Property="BorderRadius" Value="30" />
+        </Style>-->
+    </ContentPage.Resources>
+
+    <ScrollView Orientation="Both">
+        <FlexLayout>
+            <Frame WidthRequest="300"
+                   HeightRequest="550">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Bienvenido a ÉccoleApp"
+                           Style="{StaticResource headerLabel}" />
+                    <Label Text="En esta aplicación podrás buscar los eventos, locales y comida que más te gusten o que prefieras" />
+                    <Label Text="  &#x2022; Puedes hacer filtro por tipo de local" />
+                    <Label Text="  &#x2022; Filtro por nombre del producto (Ejmplo: sushi, pizza, bebestibles, etc.)" />
+                    <Label Text="  &#x2022; Filtro por tipo de evento (Ejmplo: musical, literario, etc.)" />
+                    <Image Source="https://www.tresce.com/blog/wp-content/uploads/2017/03/publicidad-en-redes-sociales.jpg" 
+                           WidthRequest="240"
+                           HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+                    <!--foto de 700x430 -->
+                    <Grid Grid.Row="1" Margin="0,30" ColumnSpacing="0" RowSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout>
+                            <StackLayout.Children>
+
+                                <Image Source="http://bbcpersian7.com/images/facebook-clipart-png-circle-14.jpg" HeightRequest="50" WidthRequest="50"></Image>
+
+                            </StackLayout.Children>
+
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="103" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Likes" /> -->
+
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1">
+
+                            <StackLayout.Children>
+                                <Image Source="https://lh3.googleusercontent.com/N-AY2XwXafWq4TQWfua6VyjPVQvTGRdz9CKOHaBl2nu2GVg7zxS886X5giZ9yY2qIjPh=w300" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="164" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Follow Us" /> -->
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="2">
+
+                            <StackLayout.Children>
+                                <Image Source="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!--<Label Style="{StaticResource StatsNumberLabel}" Text="107" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Tweet Us" /> -->
+                        </StackLayout>
+                    </Grid>
+
+                </FlexLayout>
+            </Frame>
+
+            <Frame WidthRequest="300"
+                   HeightRequest="550">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Puedes hacer filtro por:"
+                           Style="{StaticResource headerLabel}" />
+                    <Label Text="  &#x2022; Eventos musicales" />
+                    <Label Text="  &#x2022; Tipo de locales" />
+                    <Label Text="  &#x2022; Comida" />
+
+                    <Image Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzpQWRnZ1HKOcaRuET3NqXRWJ5LEHYt7_VpAipOvYoTaG0Ndp"
+                           WidthRequest="240"
+                           HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+
+                    <Grid Grid.Row="1" Margin="0,30" ColumnSpacing="0" RowSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout>
+                            <StackLayout.Children>
+
+                                <Image Source="http://bbcpersian7.com/images/facebook-clipart-png-circle-14.jpg" HeightRequest="50" WidthRequest="50"></Image>
+
+                            </StackLayout.Children>
+
+                            <!--  <Label Style="{StaticResource StatsNumberLabel}" Text="103" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Likes" /> -->
+
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1">
+
+                            <StackLayout.Children>
+                                <Image Source="https://lh3.googleusercontent.com/N-AY2XwXafWq4TQWfua6VyjPVQvTGRdz9CKOHaBl2nu2GVg7zxS886X5giZ9yY2qIjPh=w300" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="164" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Follow Us" /> -->
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="2">
+
+                            <StackLayout.Children>
+                                <Image Source="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="107" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Tweet Us" /> -->
+                        </StackLayout>
+                    </Grid>
+                    
+                </FlexLayout>
+            </Frame>
+            <Frame WidthRequest="300"
+                   HeightRequest="550">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="¡A disfrutar!"
+                           Style="{StaticResource headerLabel}" />
+                    <Label Text="Nickname(s)" />
+                    <Label Text="  &#x2022; Seleção (The National Team)" />
+
+                    <Image Source="http://vizion360.xyz/wp-content/uploads/2017/10/publi.jpg"
+                           WidthRequest="180"
+                           HeightRequest="180" />
+                    <Label FlexLayout.Grow="1" />
+
+                    <Grid Grid.Row="1" Margin="0,30" ColumnSpacing="0" RowSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout>
+                            <StackLayout.Children>
+
+                                <Image Source="http://bbcpersian7.com/images/facebook-clipart-png-circle-14.jpg" HeightRequest="50" WidthRequest="50"></Image>
+
+                            </StackLayout.Children>
+
+                            <!--  <Label Style="{StaticResource StatsNumberLabel}" Text="103" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Likes" /> -->
+
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1">
+
+                            <StackLayout.Children>
+                                <Image Source="https://lh3.googleusercontent.com/N-AY2XwXafWq4TQWfua6VyjPVQvTGRdz9CKOHaBl2nu2GVg7zxS886X5giZ9yY2qIjPh=w300" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="164" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Follow Us" /> -->
+
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="2">
+
+                            <StackLayout.Children>
+                                <Image Source="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png" HeightRequest="50" WidthRequest="50"></Image>
+                            </StackLayout.Children>
+                            <!-- <Label Style="{StaticResource StatsNumberLabel}" Text="107" />
+                            <Label Style="{StaticResource StatsCaptionLabel}" Text="Tweet Us" /> -->
+                        </StackLayout>
+                    </Grid>
+                    <Button Text="Ingresar"
+                            FontSize="Small"
+                            TextColor="White"
+                            BackgroundColor="#4c90ee"
+                            BorderRadius="30"
+                            Clicked="Button_Clicked"/>
+                </FlexLayout>
+            </Frame>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\bin\Release\netstandard2.0\EccoleApp.deps.json
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\bin\Release\netstandard2.0\EccoleApp.dll
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\bin\Release\netstandard2.0\EccoleApp.pdb
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.csprojAssemblyReference.cache
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\View\LoginPage.xaml.g.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\View\RecuperarClavePage.xaml.g.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\View\RegistrarsePage.xaml.g.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.AssemblyInfoInputs.cache
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.AssemblyInfo.cs
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.dll
+C:\Users\Marsriantu\source\repos\EccoleApp\EccoleApp\EccoleApp\obj\Release\netstandard2.0\EccoleApp.pdb
